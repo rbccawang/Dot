@@ -37,12 +37,10 @@
                                     <segue destination="HfE-um-nqw" kind="show" id="HP5-wC-Pjs"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DOT." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlX-d1-8kY">
-                                <rect key="frame" x="11" y="76" width="383" height="216"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="207" id="d31-V3-7ID"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="163"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DOT." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPq-go-AUN">
+                                <rect key="frame" x="8" y="113" width="398" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="173"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -53,22 +51,12 @@
                         <constraints>
                             <constraint firstItem="Wey-HA-Ure" firstAttribute="top" secondItem="kJ2-6o-6Lw" secondAttribute="bottom" constant="88" id="05d-Pc-WeJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wey-HA-Ure" secondAttribute="bottom" constant="191" id="2Tb-l5-2j4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HlX-d1-8kY" secondAttribute="trailing" constant="50" id="8WJ-NE-HGG"/>
-                            <constraint firstItem="kJ2-6o-6Lw" firstAttribute="top" secondItem="HlX-d1-8kY" secondAttribute="bottom" constant="82" id="FK2-Az-G59"/>
                             <constraint firstItem="kJ2-6o-6Lw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Ge1-jh-cId"/>
-                            <constraint firstItem="HlX-d1-8kY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Nbc-Bl-i0v"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kJ2-6o-6Lw" secondAttribute="trailing" constant="50" id="Syv-5V-SZS"/>
                             <constraint firstItem="Wey-HA-Ure" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="WzQ-IY-Q5i"/>
-                            <constraint firstItem="HlX-d1-8kY" firstAttribute="centerX" secondItem="Wey-HA-Ure" secondAttribute="centerX" id="XdC-db-Hrj"/>
                             <constraint firstItem="Wey-HA-Ure" firstAttribute="top" secondItem="kJ2-6o-6Lw" secondAttribute="bottom" constant="88" id="c1w-bj-kx2"/>
-                            <constraint firstItem="HlX-d1-8kY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="gfe-AY-hVB"/>
-                            <constraint firstItem="kJ2-6o-6Lw" firstAttribute="top" secondItem="HlX-d1-8kY" secondAttribute="bottom" constant="82" id="kl9-RI-uw6"/>
-                            <constraint firstItem="HlX-d1-8kY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mYu-P2-oeb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wey-HA-Ure" secondAttribute="trailing" constant="50" id="nDh-yZ-PeS"/>
-                            <constraint firstItem="HlX-d1-8kY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="v2R-hr-7GS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kJ2-6o-6Lw" secondAttribute="trailing" constant="50" id="vON-Hp-5cW"/>
-                            <constraint firstItem="HlX-d1-8kY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="xU4-XX-YZO"/>
-                            <constraint firstItem="HlX-d1-8kY" firstAttribute="centerX" secondItem="kJ2-6o-6Lw" secondAttribute="centerX" id="zqc-oa-pgM"/>
                         </constraints>
                     </view>
                     <connections>
@@ -87,13 +75,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GTX-Xl-hqr">
-                                <rect key="frame" x="-10" y="785" width="424" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Made with ♡ by Rebecca, Haley, Amani, Colette" id="7Mf-Ds-cd4"/>
-                                </items>
-                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SV-IQ-KVL">
                                 <rect key="frame" x="78" y="572" width="259" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -158,7 +139,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">1.  Remove and save the wrapper with cleanly washed hands.  
 2. Remove the backing and center the sticky side of the pad in the area in your underwear that goes between your legs. 
-3. After your pad has become saturated, pull it off your panties and roll it up the wrapper from your fresh pad.                                  4. Toss it in the trash. Never flush a pad or pantiliner down the toilet.</string>
+3. After your pad has become saturated, pull it off your panties and roll it up the wrapper from your fresh pad.                                            4. Toss it in the trash. Never flush a pad or pantiliner down the toilet.</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -931,7 +912,7 @@
         <segue reference="SS0-PO-ntw"/>
         <segue reference="xpR-I7-KWI"/>
         <segue reference="HCq-u5-SaS"/>
-        <segue reference="ahd-i2-zOl"/>
+        <segue reference="lau-pX-bAr"/>
         <segue reference="WXO-zO-YPb"/>
         <segue reference="HP5-wC-Pjs"/>
     </inferredMetricsTieBreakers>
